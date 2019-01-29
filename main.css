@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: 'Major Mono Display', monospace;
+}
+.navbar ul li{
+	margin-top: 10px;
+	display: inline-block;
+	list-style: none;
+}
+.navbar ul li a {
+	font-size: 24px;
+	color: black;
+	text-decoration: none;
+	transition: background-color 1s ease;
+	padding: 20px 20px;
+}
+.navbar ul li a:hover {
+	font-size: 24px;
+	color: black;
+	text-decoration: none;
+	padding: 20px 20px;
+	transition: background-color 1s ease;
+	background-color: #EFEFEF;
+}
+#name {
+	font-size : 34px;
+}
+.content-body
+{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'B612 Mono', monospace;
+}
+.introduction
+{
+	background-image: url("img/pexels-photo-414612.jpeg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+.introduction h1 {
+	padding-top: 300px;
+}
+#intro {
+	color: white;
+	text-shadow: 2px 2px black;
+}
