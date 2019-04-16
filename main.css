@@ -1,0 +1,120 @@
+/* HTML Tags */
+html
+{
+	scroll-behavior: smooth;
+}
+body {
+	background: #454545;
+	margin: 0;
+	background-image: url("img/earth.jpg");
+}
+body ul {
+	margin: 0;
+}
+/* Classes */
+/* Navbar */
+.navbar {
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar ul li {
+	display: inline-block;
+	padding: 20px;
+}
+.navbar ul li a {
+	text-transform: uppercase;
+	color: #4E4E4E;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	text-decoration: none;
+	transition: background-color 1s ease,
+				color 1s ease,
+				text-shadow 1s ease;
+	padding: 20px 15px 15px 15px;
+}
+.navbar ul li a:hover {
+	background-color: #515151;
+	color: #FFFFFF;
+	text-shadow: 1px 1px black;
+}
+.introduction p {
+	line-height: 100px;
+	font-weight: bold;
+}
+.content-body {
+	color: white;
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 200px;
+}
+.content-body h1 {
+	margin: 0;
+}
+.content-body a {
+	color: white;
+	text-decoration: none;
+}
+.text-shadow {	
+	text-shadow: 2px 2px black;
+}
+.photos {
+	border: 2px solid #FFFFFF;
+	border-radius: 100%;
+	height: 200px
+}
+.highlight {
+	color: #539CED;
+}
+/* Button CSS */
+.button p a{
+	font-weight: normal;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	transition: background .5s ease;
+	background: #535353;
+}
+.button p a:hover{
+	background: #4788D0;
+}
+.location {
+	font-size: 24px;
+	color: #7C7C7C;
+}
+.logos {
+	height: 200px;
+	margin-left: 20px;
+}
+.questions-list li p {
+	font-size: 26px;
+	padding: 0 10%;
+	font-family: 'Roboto Slab', serif;
+}
+/* Id */
+
+#contact {
+	background-image: url("img/earth2.jpg");
+}
+#projects {
+	background-image: url("img/earth3.jpeg");
+}
+#work {
+	margin-top: 25%;
+	line-height: 50px;
+	background-color: #E7E7E7;
+	text-align: center;
+	color: #2C2C2C;
+	font-family: 'Roboto Slab', serif;
+	padding: 5% 25%;
+}
+#faq {
+	padding: 7% 25%;
+	color: #D9D9D9;
+	background: #1C1C1C;
+}
+#calculator {
+	background-image: url(img/space.jpeg);
+}
