@@ -7,6 +7,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css/form.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	<script src="scripts/form.js"></script>
+	
 </head>
 <body id="contact">
 	<header class="navbar">
@@ -17,6 +22,25 @@
 		</ul>		
 	</header>
 	<div class="content-body">
+		<h1>Contact Me</h1>
+		<form action="https://formspree.io/ivandai9@hotmail.ca" method="POST">
+			<label>
+				E-mail
+				<input type="email" name="email" class="email">
+			</label>
+			<label>
+				Subject
+				<input type="text" name="subject" class="subject">
+			</label>
+			<label>
+				Message
+				<textarea class="message"></textarea>
+			</label>
+			<button type="submit" name="message" class="submit">Send</button>
+		</form>
+		<div class="status">
+
+		</div>
 	</div>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

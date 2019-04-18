@@ -7,8 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/snake.css">
 </head>
-<body id="projects">
+<body id="snake-game">
 	<header class="navbar">
 		<ul>
 			<li><a href="index.html">Ivan Dai</a></li>
@@ -16,31 +17,9 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>		
 	</header>
-	<div class="content-body">
-		<div class="project-container">
-			<ul>
-				<li>
-					<a href="calculator.html">
-						<img src="img/project-icons/calculator.jpg" alt="calculator app icon">
-						<p>Calculator</p>
-					</a>
-				</li>
-				<li>
-					<a href="snake.html">
-						<img src="img/project-icons/snake.jpg" alt="snake game icon">
-						<p>Snake Game</p>
-					</a>
-				</li>
-				<li>
-					<a href="Minors in workplace website/index.html" target="_blank">
-						<img src="img/project-icons/law.jpg" alt="Law 12 project icon">
-						<p>Law Project</p>
-					</a>
-				</li>
-			</ul>
-			
-		</div>
-	</div>
+<canvas id="snake" width="608" height="608">	
+</canvas>
+<script src="scripts/snake.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

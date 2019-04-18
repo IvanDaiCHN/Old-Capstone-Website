@@ -4,7 +4,7 @@ html
 	scroll-behavior: smooth;
 }
 body {
-	background: #454545;
+	background: gray;
 	margin: 0;
 	background-image: url("img/earth.jpg");
 }
@@ -72,10 +72,8 @@ body ul {
 .button p a{
 	font-weight: normal;
 	border: 2px solid black;
-	border-radius: 5px;
 	padding: 10px;
 	transition: background .5s ease;
-	background: #535353;
 }
 .button p a:hover{
 	background: #4788D0;
@@ -87,18 +85,6 @@ body ul {
 .logos {
 	height: 200px;
 	margin-left: 20px;
-}
-.questions-list li p {
-	font-size: 26px;
-	padding: 0 10%;
-	font-family: 'Roboto Slab', serif;
-}
-.project-container ul li {
-	display: inline-block;
-	margin: 50px;
-}
-.project-container img{
-	width: 200px;
 }
 /* Id */
 
@@ -113,15 +99,11 @@ body ul {
 	line-height: 50px;
 	background-color: #E7E7E7;
 	text-align: center;
+	padding: 0 25%;
 	color: #2C2C2C;
 	font-family: 'Roboto Slab', serif;
-	padding: 5% 25%;
+	padding: 10% 25%;
 }
 #faq {
-	padding: 7% 25%;
-	color: #D9D9D9;
-	background: #1C1C1C;
-}
-#calculator {
-	background-image: url(img/space.jpeg);
+
 }

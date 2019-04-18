@@ -4,7 +4,7 @@ html
 	scroll-behavior: smooth;
 }
 body {
-	background: #454545;
+	background: gray;
 	margin: 0;
 	background-image: url("img/earth.jpg");
 }
@@ -93,13 +93,6 @@ body ul {
 	padding: 0 10%;
 	font-family: 'Roboto Slab', serif;
 }
-.project-container ul li {
-	display: inline-block;
-	margin: 50px;
-}
-.project-container img{
-	width: 200px;
-}
 /* Id */
 
 #contact {
@@ -121,7 +114,4 @@ body ul {
 	padding: 7% 25%;
 	color: #D9D9D9;
 	background: #1C1C1C;
-}
-#calculator {
-	background-image: url(img/space.jpeg);
 }
